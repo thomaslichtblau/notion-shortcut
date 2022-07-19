@@ -1,0 +1,19 @@
+{"parent": { "database_id": "3b54f256586041d5bdcc2886c7aca7c2" },
+"properties":{
+
+"Name": {
+"title": [{"text": {"content": "Entry Name"}}]
+},
+"Exercise": {
+"type":"select",
+"select": {"name": "Exercise Tag"}
+},
+"Date": {
+"type":"date",
+"date": {"start": "*Formatted Date*"}
+},
+"Unit": {
+"type":"number",
+"number": *Provided Input*
+}
+}}
